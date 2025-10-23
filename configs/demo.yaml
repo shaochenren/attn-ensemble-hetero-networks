@@ -1,0 +1,28 @@
+
+seed: 13
+device: "cpu"
+
+data:
+  nodes: 40
+  edges: 80
+  T: 240
+  seq_len: 32
+  feature_dim: 8
+  anomaly_rate: 0.08
+
+model:
+  ae_hidden: 64
+  ae_bottleneck: 16
+  lstm_hidden: 64
+  lstm_bottleneck: 32
+  gat_hidden: 32
+  gat_heads: 2
+  attn_hidden: 32
+
+train:
+  epochs: 3
+  batch_size: 32
+  lr: 0.001
+
+eval:
+  threshold: "auto"

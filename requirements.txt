@@ -1,0 +1,12 @@
+
+numpy
+scipy
+pandas
+scikit-learn
+torch>=2.0.0
+pyyaml
+tqdm
+matplotlib
+rich
+pydantic
+networkx
